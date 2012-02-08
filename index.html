@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sebastian Slomski</title>
+    <meta charset="utf-8">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/animations.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/base.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/utils.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/layout.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="css/modules/bar.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/modules/portfolio.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/modules/alert.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery-1.7.1.min.js"></script>
+    <script src="js/vendor/jquery.scrollTo.min.js"></script>
+    <script src="js/vendor/jquery.cycle.all.js"></script>
+
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="l-container bar bar-fixed">
+      <div class="l-grid clearfix">
+        <div class="l-grid-column-2-1 bar-logo">
+          <h1>
+            <a href="#intro">
+              Sebastian Slomski
+              <span>Front-end specialist</span>
+            </a>
+          </h1>
+        </div>
+        <nav class="l-grid-column-2-1 bar-links">
+          <ul class="bar-menu">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="content" class="fade">
+      <section id="intro" class="l-container">
+        <div class="l-grid">
+          <div id="browser-fail" class="alert-box-wrapper">
+            <div class="l-grid-row alert-box">
+              <a class="alert-close">×</a>
+              <h4>Warning!</h4>
+              <p>
+                You are using a browser which apparently doesn't support today's technology yet.<br>
+                In order to enjoy the full user experience of this site, you should consider
+                upgrading to a newer version of your browser.
+              </p>
+            </div>
+          </div>
+
+          <img src="images/me.jpg" alt="Sebastian Slomski" class="l-grid-row">
+          <h2 class="l-grid-row quote">
+            <span class="quote-left">“</span>
+            I create beautiful and appealing applications with cutting edge web technologies.
+            <span class="quote-right">”</span>
+          </h2>
+        </div>
+      </section>
+
+      <section id="portfolio" class="l-container">
+        <div class="l-grid clearfix">
+          <h1 class="l-grid-row">Portfolio</h1>
+        </div>
+        <div class="portfolio-detail-container clearfix">
+          <div class="l-grid">
+            <a class="portfolio-control-left" href="#back">back</a>
+            <div class="l-grid-row">
+              <a href="#close" class="portfolio-detail-close">x</a>
+            </div>
+            <div class="l-grid-row portfolio-slides">
+              <article>
+                <img src="images/macbook-air.png" alt="">
+                <h2>foo bar</h2>
+                <p>
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                </p>
+              </article>
+              <article>
+                <img src="images/macbook-air.png" alt="">
+                <h2>foo bar</h2>
+                <p>
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                  asdfasdfasdfasdf
+                </p>
+              </article>
+            </div>
+            <a class="portfolio-control-right" href="#forward">forward</a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="l-grid portfolio-preview">
+          <div class="l-grid-column-3-1">
+            <h2>Striker</h2>
+            <img src="images/macbook-air.png" alt="" style="width: 100%;">
+          </div>
+          <div class="l-grid-column-3-1">
+            <h2>Eine ganz heisse Nummer - App</h2>
+            <img src="images/macbook-air.png" alt="" style="width: 100%;">
+          </div>
+          <div class="l-grid-column-3-1">
+            <h2>Dana Nedamaldeen's Portfolio</h2>
+            <img src="images/macbook-air.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="l-container">
+        <div class="l-grid">
+          <h1 class="l-grid-row">Talks and Publications</h1>
+          <div class="l-grid-column-2-1">
+            <h2>Conferences and User Group Meetups</h2>
+            <p>
+              Conferences and User Group Meetups give me the chance to connect with other
+              passionate people and share thoughts.
+              <br>
+              I'm a regular attendee of the
+              <a href="http://munichjs.org" target="_blank">Munich Javascript User Group</a> and
+              <a href="http://mnug.de" target="_blank">Munich Node.js User Group</a>.
+
+            </p>
+            <p>
+              I'm also taking part in organising the <em>Munich Hacknight</em> and <a href="http://refreshmunich">RefreshMunich</a>.
+            </p>
+            <p>
+              Aside from attending these I also enjoy giving talks and share my knowledge.
+            </p>
+          </div>
+
+          <div class="l-grid-column-2-1">
+            <h2>Talks</h2>
+            <ul>
+              <li>
+                <strong>Introduction to Coffeescript</strong>
+                at Javascript User Group Munich, 6 July 2011
+                <br>
+                and at Frontend Conference Zurich, 10 September 2011
+                <br>
+                30-45min talk about why you should use Coffeescript
+              </li>
+              <li>
+                <strong>Structuring front-ends with Backbone.js</strong>
+                at Javascript User Group Munich, 13 October 2011
+                <br>
+                30min talk about how to structure front-ends with Backbone.js
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me" class="l-container">
+        <div class="l-grid">
+          <h1 class="l-grid-row">About me</h1>
+          <div class="l-grid-column-3-2">
+            <h2>Summary</h2>
+            <p>
+              I am a software engineer &amp; front-end architect from Munich, Germany,
+              specialised in building (mobile) web applications with HTML, CSS and Javascript.
+            </p>
+            <p>
+              During my training for becoming an computer specialist for application development at
+              <a href="http://www.edvschule-plattling.de">EDV-Schule Plattling</a>
+              I discovered my passion for building web applications.
+              Since then I've worked for multiple companies as a Python web developer as well
+              as a front-end architect.
+            </p>
+            <p>
+              Besides my workaday life I'm organising the user group
+              <a href="http://refreshmunich">RefreshMunich</a> together with friends,
+              working with a friend on an own product and attending as well as speaking at
+              various web related conferences and user groups.
+            </p>
+            <p>
+              <strong>In short:</strong> I like to be surrounded by people who are better then me and learn from them.
+            </p>
+          </div>
+          <div class="l-grid-column-3-1">
+            <h2>My Top Skills</h2>
+            <ul>
+              <li>Large scale web app architecture</li>
+              <li>Scalable and modular CSS</li>
+              <li>Full featured mobile apps with web technologies</li>
+              <li>REST APIs</li>
+              <li>Responsive websites</li>
+              <li>Internationalisation</li>
+              <li>Version control systems</li>
+              <li>Agile software development with Scrum- and Extreme Programming-like approaches</li>
+            </ul>
+          </div>
+          <!--
+          <div class="clearfix"></div>
+          <div class="l-grid-row">
+            <h2>Short Bio</h2>
+
+            <h3>Educational and vocational training</h3>
+            <ul>
+              <li>
+                <strong>2007 – 2010:</strong>
+                IT-specialist for application development, EDV-Schule Plattling, (vocational computer science school).
+              </li>
+              <li>
+                <strong>1999 – 2007:</strong>
+                O-level degree, St. Michaels Gymnasium Metten, (grammar school).
+              </li>
+            </ul>
+
+            <h3>Professional career</h3>
+            <ul>
+              <li>
+                <strong>Feb 2011 – Mar 2012:</strong>
+                Front-end Solution Architect, Catenate/cwerk, Munich.
+              </li>
+              <li>
+                <strong>Feb 2010 – Dec 2010:</strong>
+                Web developer, PersonalNOVEL, Munich.
+              </li>
+              <li>
+                <strong>Aug 2008 – Oct 2008:</strong>
+                Web developer / intern, Silicon Visions Advertising, Sydney, Australia.
+              </li>
+            </ul>
+          </div>
+          -->
+        </div>
+      </section>
+
+      <section id="contact" class="l-container">
+        <div class="l-grid">
+          <h1 class="l-grid-row">Contact</h1>
+          <div class="l-grid-column-2-1">
+            <h2>Get in contact with me</h2>
+            <p>
+              If you have an interesting job offer, a great idea or if you just want to share some thoughts,
+              drop me a line at <a href="mailto:me@sebslomski.com">me@sebslomski.com</a>.
+            </p>
+          </div>
+          <div class="l-grid-column-2-1">
+            <h2>Professional Network</h2>
+            <p>
+              If you are just looking to connect up to me as a colleague in a shared professional network of
+              like minded individuals, the best way to do so is by connecting with me on
+              <a href="http://twitter.com/sebslomski">Twitter</a>,
+              <a href="http://github.com/sebslomski">Github</a>,
+              <a href="http://sebslomski.com/xing">Xing</a> or
+              <a href="http://sebslomski.com/linkedin">LinkedIn</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="l-container bar">
+      <div class="l-grid">
+        <div class="l-grid-column-2-1">
+          <a class="bar-copyright" href="mailto:me@sebslomski.com">&copy; 2012 Sebastian Slomski. Feel free to copy</a>
+        </div>
+        <div class="l-grid-column-2-1 bar-links">
+          <ul class="bar-social">
+            <li><a class="bar-social-twitter" href="http://twitter.com/sebslomski">Twitter</a></li>
+            <li><a class="bar-social-github" href="http://github.com/sebslomski">Github</a></li>
+            <li><a class="bar-social-xing" href="http://sebslomski.com/xing">Xing</a></li>
+            <li><a class="bar-social-linkedin" href="http://sebslomski.com/linkedin">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

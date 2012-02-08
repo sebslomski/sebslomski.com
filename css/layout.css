@@ -1,0 +1,87 @@
+/*
+ * Layout CSS selectors always start with `l-`
+ * */
+
+.l-container {
+  width: 100%;
+  float: left;
+}
+
+.l-grid {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.l-grid-column-3-1,
+.l-grid-column-3-2,
+.l-grid-column-2-1,
+.l-grid-row {
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+.l-grid-column-3-1 {
+  width: 320px;
+}
+
+.l-grid-column-3-2 {
+  width: 660px;
+}
+
+.l-grid-column-2-1 {
+  width: 490px;
+}
+
+.l-grid-row {
+  width: 1000px;
+}
+
+header {
+  z-index: 20;
+}
+
+
+#content {
+  float: left;
+  margin: 60px 0;
+  z-index: 10;
+  position: relative;
+}
+
+
+#content h1 {
+  border-bottom: 1px dotted #c0c0c0;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.quote {
+  position: relative;
+  padding: 40px 150px;
+
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.quote-left,
+.quote-right {
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.quote-right {
+  bottom: -40px;
+  right: 120px;
+}
+
+.quote-left {
+  top: 0;
+  left: 100px;
+}

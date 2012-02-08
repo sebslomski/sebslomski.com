@@ -1,0 +1,120 @@
+.portfolio-preview img {
+  cursor: pointer;
+}
+
+.portfolio-detail-container {
+  height: 0;
+  overflow: hidden;
+
+  background: #222;
+}
+
+.portfolio-detail-container .l-grid {
+  position: relative;
+}
+
+.portfolio-detail-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 5px 6px;
+  width: 25px;
+  height: 25px;
+  display: block;
+  z-index: 10;
+
+  border: 1px solid #bbb;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #bbb;
+  line-height: 1;
+  text-transform: uppercase;
+
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.portfolio-detail-close:hover {
+  border-color: #555;
+
+  color: #555;
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+}
+
+.portfolio-control-left,
+.portfolio-control-right {
+  position: absolute;
+  top: 180px;
+  width: 33px;
+  height: 64px;
+  float: left;
+  display: block;
+
+  background-repeat: no-repeat;
+  background-color: #bbb;
+
+  text-indent: -999em;
+}
+
+.portfolio-control-left {
+  left: -63px;
+
+  background-image: url(../../images/portfolio-arrow-left.png);
+}
+
+.portfolio-control-right {
+  right: -63px;
+
+  background-image: url(../../images/portfolio-arrow-right.png);
+}
+
+.portfolio-control-left:hover,
+.portfolio-control-right:hover {
+  background-color: #fff;
+}
+
+.portfolio-slides article {
+  width: 100%;
+}
+
+.portfolio-detail-container img {
+  width: 620px;
+  display: block;
+  float: left;
+  padding: 30px;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+
+.portfolio-detail-container h2 {
+  color: #eee;
+}
+
+.portfolio-detail-container p {
+  float: none;
+  color: #777;
+}
+

@@ -1,0 +1,115 @@
+.bar {
+  background: #222;
+
+  color: #eee;
+}
+
+.bar-fixed {
+  position: fixed;
+}
+
+.bar-links {
+  width: 500px;
+  margin-right: 0;
+}
+
+.bar ul {
+  margin: 0;
+}
+
+.bar ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.bar a {
+  color: #777;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.bar a:hover,
+.bar a.s-active {
+  color: #eee;
+}
+
+.bar a.s-active {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1px;
+}
+
+
+.bar-logo h1 {
+  float: left;
+  margin: 0;
+  padding: 15px 0;
+
+  font-size: 30px;
+  font-style: italic;
+  line-height: 1;
+}
+
+.bar-logo h1 a {
+  color: #eee;
+}
+
+
+.bar-logo h1 span {
+  line-height: 1;
+  font-size: 16px;
+  color: #777;
+}
+
+.bar-menu {
+  float: right;
+}
+
+.bar-menu li {
+  float: left;
+}
+
+.bar-menu li a {
+  display: block;
+  padding: 16px 10px;
+  padding-top: 29px;
+
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+}
+
+
+.bar-social {
+  float: right;
+}
+
+.bar-social li {
+  float: left;
+}
+
+.bar-social li a {
+  width: 14px;
+  height: 14px;
+  display: block;
+  margin: 16px 10px;
+  margin-top: 24px;
+
+  background: #fff;
+
+  text-indent: -999em;
+}
+
+.bar-separator {
+  float: right;
+  height: 20px;
+  width: 1px;
+  margin: 13px 10px;
+  margin-top: 21px;
+
+  background: #777;
+}
+
+
+.bar-copyright {
+  padding: 20px 0;
+  display: block;
+}
