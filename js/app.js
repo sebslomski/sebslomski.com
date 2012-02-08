@@ -1,4 +1,8 @@
 $(function () {
+  jQuery.fn.reverse = function () {
+    return this.pushStack(this.get().reverse(), arguments);
+  };
+
   function elementInViewport(el) {
     var rect = el.getBoundingClientRect()
     return (
@@ -10,7 +14,7 @@ $(function () {
   }
 
   document.addEventListener('scroll', function () {
-    $('h1').each(function (elem) {
+    $('h1').reverse().each(function (elem) {
       if (elementInViewport(this)) {
         var id = $(this).parents('section').attr('id');
         if (id) {
