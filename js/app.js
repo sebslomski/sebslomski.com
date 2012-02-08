@@ -18,7 +18,10 @@ $(function () {
       if (elementInViewport(this)) {
         var id = $(this).parents('section').attr('id');
         if (id) {
-          $('.bar-menu a[href="#' + id + '"]').trigger('click');
+          $('.bar-menu a[href="#' + id + '"]')
+            .trigger('click')
+            .parents('li').siblings().find('a.s-active').removeClass('s-active');
+          $('.bar-menu a[href="#' + id + '"]').addClass('s-active');
         }
       }
     });
@@ -43,8 +46,6 @@ $(function () {
 
   $('.bar-menu li a').click(function (e) {
     e.preventDefault();
-    $(this).parents('li').siblings().find('a.s-active').removeClass('s-active');
-    $(this).addClass('s-active');
     if (!e.isTrigger) {
       var $fixedBar = $('.bar-fixed');
       var $targetElem = $($(this).attr('href'));
