@@ -26,6 +26,7 @@
   color: #777;
   text-decoration: none;
   line-height: 1;
+  outline: 0;
 }
 
 .bar a:hover,

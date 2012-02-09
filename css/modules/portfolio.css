@@ -76,6 +76,7 @@
   background-color: #bbb;
 
   text-indent: -999em;
+  outline: 0;
 }
 
 .portfolio-control-left {
