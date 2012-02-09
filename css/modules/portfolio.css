@@ -73,7 +73,6 @@
   display: block;
 
   background-repeat: no-repeat;
-  background-color: #bbb;
 
   text-indent: -999em;
   outline: 0;
@@ -91,9 +90,12 @@
   background-image: url(../../images/portfolio-arrow-right.png);
 }
 
-.portfolio-control-left:hover,
+.portfolio-control-left:hover {
+  background-image: url(../../images/portfolio-arrow-left-hover.png);
+}
+
 .portfolio-control-right:hover {
-  background-color: #fff;
+  background-image: url(../../images/portfolio-arrow-right-hover.png);
 }
 
 .portfolio-slides article {
