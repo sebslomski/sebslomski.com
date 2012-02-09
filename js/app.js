@@ -19,7 +19,7 @@ $(function () {
         var id = $(this).parents('section').attr('id');
         if (id) {
           $('.bar-menu a[href="#' + id + '"]')
-            .trigger('click')
+            .trigger('click', true)
             .parents('li').siblings().find('a.s-active').removeClass('s-active');
           $('.bar-menu a[href="#' + id + '"]').addClass('s-active');
         }
@@ -44,9 +44,9 @@ $(function () {
     $(window).scrollTo(0, 1000);
   });
 
-  $('.bar-menu li a').click(function (e) {
+  $('.bar-menu li a').click(function (e, noScrollTo) {
     e.preventDefault();
-    if (!e.isTrigger) {
+    if (!noScrollTo) {
       var $fixedBar = $('.bar-fixed');
       var $targetElem = $($(this).attr('href'));
       $(window).scrollTo($targetElem.position().top, 1000);
