@@ -1,4 +1,5 @@
 $(function () {
+  var IS_MAC = true;
   jQuery.fn.reverse = function () {
     return this.pushStack(this.get().reverse(), arguments);
   };
@@ -29,7 +30,7 @@ $(function () {
 
   $(document).trigger('scroll');
 
-  if (!$('html.cssanimations.csstransitions').length) {
+  if (!$('html.cssanimations.csstransitions').length && IS_MAC) {
     $('#browser-fail').show();
   }
 
@@ -56,7 +57,7 @@ $(function () {
 
   $('.portfolio-detail-close').click(function (e) {
     e.preventDefault();
-    if ($('html.cssanimations').length) {
+    if ($('html.cssanimations').length && IS_MAC) {
       $('.portfolio-detail-container')
         .removeClass('fadeInUp')
         .addClass('fadeOutUp');
@@ -66,7 +67,7 @@ $(function () {
   });
 
   $('.portfolio-preview img').click(function (e) {
-    if ($('html.cssanimations').length) {
+    if ($('html.cssanimations').length && IS_MAC) {
       $('.portfolio-detail-container')
         .removeClass('fadeOutUp')
         .addClass('fadeInUp');
