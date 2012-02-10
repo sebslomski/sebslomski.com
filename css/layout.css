@@ -54,7 +54,8 @@ header {
   border-bottom: 1px dotted #c0c0c0;
 
   text-transform: uppercase;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px; */
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 
@@ -84,4 +85,8 @@ header {
 .quote-left {
   top: 0;
   left: 100px;
+}
+
+.l-spacer {
+  margin-bottom: 20px;
 }
