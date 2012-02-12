@@ -1,5 +1,11 @@
 .portfolio-preview img {
+  width: 100%;
+
   cursor: pointer;
+}
+
+.portfolio-preview img:hover {
+  opacity: 0.5;
 }
 
 .portfolio-detail-container {
@@ -101,6 +107,10 @@
 .portfolio-slides article {
   width: 100%;
   padding: 10px 0;
+}
+
+.portfolio-slides article img {
+  width: 460px;
 }
 
 .portfolio-detail-container img {
