@@ -76,7 +76,7 @@ $(function () {
         .removeClass('fadeOutUp')
         .addClass('fadeInUp');
     } else {
-      $('.portfolio-detail-container').animate({height: 400}, 1000);
+      $('.portfolio-detail-container').animate({height: 600}, 1000);
     }
 
     if (!portfolioSliderInitialised) {
