@@ -132,6 +132,7 @@ ul.styled li h4 {
 
 ul.styled li > div {
   float: left;
+  width: 75%;
 }
 
 img.right {
