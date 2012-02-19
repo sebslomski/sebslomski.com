@@ -127,15 +127,45 @@ ul.styled li {
 
 ul.styled li h4 {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 ul.styled li > div {
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 img.right {
   float: right;
   display: block;
+}
+
+acronym {
+  cursor: help;
+  border-bottom: 1px dotted #c0c0c0;
+}
+
+
+ul.tabular {
+  display: table;
+}
+
+ul.tabular li {
+  margin: 0;
+  display: table-row;
+
+  list-style: none;
+}
+
+ul.tabular li span {
+  display: table-cell;
+  padding-left: 10px;
+}
+
+ul.tabular li span:first-child {
+  width: 30%;
+  padding-left: 0;
+
+  color: #aaa;
+  text-align: right;
 }
