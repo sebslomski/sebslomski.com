@@ -19,6 +19,7 @@ $(function () {
       if (elementInViewport(this)) {
         var id = $(this).parents('section').attr('id');
         if (id) {
+          document.title = 'Sebastian Slomski > ' + $('#' + id + ' h1').html();
           $('.bar-menu a[href="#' + id + '"]')
             .trigger('click', true)
             .parents('li').siblings().find('a.s-active').removeClass('s-active');
