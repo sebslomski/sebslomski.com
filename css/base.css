@@ -160,12 +160,14 @@ ul.tabular li {
 ul.tabular li span {
   display: table-cell;
   padding-left: 10px;
+  padding-bottom: 5px;
+
+  line-height: 1.5;
 }
 
 ul.tabular li span:first-child {
-  width: 30%;
+  width: 35%;
   padding-left: 0;
 
-  color: #aaa;
-  text-align: right;
+  font-style: italic;
 }
