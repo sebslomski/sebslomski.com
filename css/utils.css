@@ -18,3 +18,7 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
+
+.hidden {
+  display: none;
+}
