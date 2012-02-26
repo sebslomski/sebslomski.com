@@ -90,3 +90,19 @@ header {
 .l-spacer {
   margin-bottom: 20px;
 }
+
+.table {
+  display: table;
+  table-layout: fixed;
+}
+
+.table > ul {
+  display: table-row;
+}
+
+.table > ul > li {
+  display: table-cell;
+  margin: 0;
+
+  list-style: none;
+}
