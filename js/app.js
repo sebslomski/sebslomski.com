@@ -96,4 +96,6 @@ $(function () {
 
     $('.bar-menu li a[href="#portfolio"]').trigger('click');
   });
+
+  $('img.lazy').lazyload();
 });

@@ -19,6 +19,7 @@
     <script src="js/vendor/jquery-1.7.1.min.js"></script>
     <script src="js/vendor/jquery.scrollTo.min.js"></script>
     <script src="js/vendor/jquery.cycle.all.js"></script>
+    <script src="js/vendor/jquery.lazyload.min.js"></script>
 
     <script src="js/app.js"></script>
   </head>
@@ -58,7 +59,7 @@
               </p>
             </div>
           </div>
-          <img src="images/me.jpg" alt="Sebastian Slomski" class="l-grid-row">
+          <img src="images/lazyload.jpg" data-original="images/me.jpg" width="1000" height="465" alt="Sebastian Slomski" class="l-grid-row lazy">
           <h2 class="l-grid-row quote">
             <span class="quote-left">“</span>
             I work with designers to develop beautiful and appealing applications using cutting edge web technologies.
@@ -79,7 +80,7 @@
             </div>
             <div class="l-grid-row portfolio-slides">
               <article id="eghn-detail">
-                <img src="images/portfolio/eine-ganz-heisse-nummer.png" alt="Eine ganz heisse Nummer Promotion App">
+                <img class="lazy" src="images/lazyload.jpg" data-original="images/portfolio/eine-ganz-heisse-nummer.png" width="460" height="460" alt="Eine ganz heisse Nummer Promotion App">
                 <h2>Eine ganz heisse Nummer Promotion App</h2>
                 <p>
                   To promote their new cinema movie "Eine ganz heisse Nummer" during the October Fest, Universum Film
@@ -99,7 +100,7 @@
                 </p>
               </article>
               <article id="striker-tool-detail">
-                <img src="images/portfolio/striker-tool.png" alt="Striker Tool">
+                <img class="lazy" src="images/lazyload.jpg" data-original="images/portfolio/striker-tool.png" width="460" height="460" alt="Striker Tool">
                 <h2>Striker Tool</h2>
                 <p>
                   Striker Tool is a custom customer relation management (CRM) solution for RedBull, built on top of catenate's MASIS JSON API.
@@ -117,7 +118,7 @@
                 </p>
               </article>
               <article id="dana-nedamaldeen-detail">
-                <img src="images/portfolio/dana-nedamaldeen.png" alt="Dana Nedamaldeen's Portfolio">
+                <img class="lazy" src="images/lazyload.jpg" data-original="images/portfolio/dana-nedamaldeen.png" width="460" height="460" alt="Dana Nedamaldeen's Portfolio">
                 <h2>Dana Nedamaldeen's Portfolio</h2>
                 <p>
                   Working hand in hand, I helped my friend and designer Dana Nedamaldeen to implement his portfolio website
@@ -133,15 +134,15 @@
         <div class="clearfix"></div>
         <div class="l-grid portfolio-preview">
           <div class="l-grid-column-3-1" id="eghn">
-            <img src="images/portfolio/eine-ganz-heisse-nummer.png" alt="">
+            <img src="images/portfolio/eine-ganz-heisse-nummer.png" width="320" height="320" alt="Eine ganz heisse Nummer">
             <h2>Eine ganz heisse Nummer Promotion App</h2>
           </div>
           <div class="l-grid-column-3-1" id="striker-tool">
-            <img src="images/portfolio/striker-tool.png" alt="Striker Tool">
+            <img src="images/portfolio/striker-tool.png" width="320" height="320" alt="Striker Tool">
             <h2>Striker Tool</h2>
           </div>
           <div class="l-grid-column-3-1" id="dana-nedamaldeen">
-            <img src="images/portfolio/dana-nedamaldeen.png" alt="Dana Nedamaldeen's Portfolio">
+            <img src="images/portfolio/dana-nedamaldeen.png" width="320" height="320" alt="Dana Nedamaldeen's Portfolio">
             <h2>Dana Nedamaldeen's Portfolio</h2>
           </div>
         </div>
@@ -295,7 +296,7 @@
           </div>
 
           <div class="l-grid-column-2-1">
-            <img src="images/conferences.png" class="right" alt="Conferences and User Groups I attended">
+            <img src="images/lazyload.jpg" data-original="images/conferences.png" width="400" height="400" class="right lazy" alt="Conferences and User Groups I attended">
           </div>
 
           <div class="clearfix l-spacer"></div>
