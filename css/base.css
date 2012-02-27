@@ -171,3 +171,7 @@ ul.tabular li span:first-child {
 
   font-style: italic;
 }
+
+#webcrawler-hint {
+  display: none;
+}
