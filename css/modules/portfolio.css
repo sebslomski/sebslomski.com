@@ -1,13 +1,3 @@
-.portfolio-preview img {
-  width: 100%;
-
-  cursor: pointer;
-}
-
-.portfolio-preview img:hover {
-  opacity: 0.5;
-}
-
 .portfolio-detail-container {
   height: 0;
   overflow: hidden;
@@ -132,3 +122,28 @@
   color: #777;
 }
 
+.portfolio-preview img {
+  width: 100%;
+}
+
+
+.portfolio-preview > div:hover {
+  cursor: pointer;
+}
+
+.portfolio-preview > div:hover img {
+  opacity: 0.5;
+}
+
+
+.portfolio-preview h2 {
+  padding-top: 10px;
+
+  border-top: 2px solid #222;
+
+  text-align: center;
+}
+
+.portfolio-preview > div:hover h2 {
+  border-top: 2px solid #bbb;
+}
