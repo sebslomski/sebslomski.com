@@ -85,6 +85,7 @@ $(function () {
         fx: 'scrollHorz',
         prev: '.portfolio-control-left',
         next: '.portfolio-control-right',
+        fastOnEvent: 1000,
         timeout: 0
       });
       portfolioSliderInitalised = true;
