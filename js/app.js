@@ -47,11 +47,13 @@ $(function () {
   });
 
   $('.bar-menu li a').click(function (e, noScrollTo) {
-    e.preventDefault();
-    if (!noScrollTo) {
-      var $fixedBar = $('.bar-fixed');
-      var $targetElem = $($(this).attr('href'));
-      $(window).scrollTo($targetElem.position().top, 1000);
+    if ($(this).attr('href')[0] === '#') {
+      e.preventDefault();
+      if (!noScrollTo) {
+        var $fixedBar = $('.bar-fixed');
+        var $targetElem = $($(this).attr('href'));
+        $(window).scrollTo($targetElem.position().top, 1000);
+      }
     }
   });
 
