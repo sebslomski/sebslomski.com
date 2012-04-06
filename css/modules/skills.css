@@ -8,9 +8,9 @@
   padding: 3px 10px;
   margin: 3px;
 
-  border: 1px solid #f0f0f0;
+  border: 1px solid #e0e0e0;
 
-  background: #f9f9f9;
+  background: #fafafa;
 
   opacity: 0.3;
 }
@@ -25,13 +25,13 @@
   padding: 3px 10px;
   margin: 3px;
 
-  border: 1px dotted #ccc;
+  border: 1px dotted #e0e0e0;
 
   cursor: pointer;
 }
 
 .skills-button.s-active {
-  border: 1px solid #ddd;
+  border-style: solid;
 
   background: #fafafa;
 }
