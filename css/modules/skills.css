@@ -31,7 +31,9 @@
 }
 
 .skills-button.s-active {
-  background: #fcfcfc;
+  border: 1px solid #ddd;
+
+  background: #fafafa;
 }
 
 .skills-headline {

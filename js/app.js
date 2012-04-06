@@ -116,5 +116,5 @@ $(function () {
 
   $('.skills-button').hover(function (e) { $(this).trigger('click'); });
 
-  $('.skills-button-all').trigger('click');
+  $('.skills-button.s-focus').trigger('click');
 });
