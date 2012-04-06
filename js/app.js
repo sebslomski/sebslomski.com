@@ -101,4 +101,20 @@ $(function () {
   });
 
   $('img.lazy').lazyload({effect: 'fadeIn'});
+
+  $('.skills-button').click(function (e) {
+    $('.skills-button').removeClass('s-active');
+    $(this).addClass('s-active');
+
+    if ($(this).data('group') === '*') {
+      $('.skills > span').addClass('s-active');
+    } else {
+      $('.skills > span').removeClass('s-active');
+      $('.skills-' + $(this).data('group')).addClass('s-active');
+    }
+  });
+
+  $('.skills-button').hover(function (e) { $(this).trigger('click'); });
+
+  $('.skills-button-all').trigger('click');
 });

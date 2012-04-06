@@ -1,0 +1,38 @@
+.skills {
+  border-right: 1px dotted #c0c0c0;
+}
+
+.skills > span {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 3px;
+
+  border: 1px solid #f0f0f0;
+
+  background: #f9f9f9;
+
+  opacity: 0.3;
+}
+
+.skills > span.s-active {
+  opacity: 1;
+}
+
+
+.skills-button {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 3px;
+
+  border: 1px dotted #ccc;
+
+  cursor: pointer;
+}
+
+.skills-button.s-active {
+  background: #fcfcfc;
+}
+
+.skills-headline {
+  margin-top: 0;
+}

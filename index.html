@@ -16,6 +16,7 @@
     <link href="css/modules/bar.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/modules/portfolio.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/modules/alert.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/modules/skills.css" rel="stylesheet" type="text/css" media="all">
 
     <link rel="image_src" href="http://sebslomski.com/images/me-small.jpg">
 
@@ -58,6 +59,7 @@
         <nav class="l-grid-column-2-1 bar-links">
           <ul class="bar-menu">
             <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="http://blog.sebslomski.com">Blog</a></li>
@@ -78,12 +80,14 @@
               </p>
             </div>
           </div>
-          <img src="images/lazyload.jpg" data-original="images/me.jpg" width="1000" height="465" alt="Sebastian Slomski" class="l-grid-row lazy">
-          <h2 class="l-grid-row quote hidden">
-            <span class="quote-left">“</span>
-            I work with designers to develop beautiful and appealing applications using cutting edge web technologies.
-            <span class="quote-right">”</span>
-          </h2>
+          <div class="l-grid-row intro-image">
+            <img src="images/lazyload.jpg" data-original="images/me.jpg" width="1000" height="500" alt="Sebastian Slomski" class="lazy">
+            <h2 class="l-grid-row quote">
+              <span class="quote-left">“</span>
+              I work with designers to develop beautiful and appealing applications using cutting edge web technologies.
+              <span class="quote-right">”</span>
+            </h2>
+          </div>
         </div>
       </section>
 
@@ -149,7 +153,7 @@
             </ul>
           </div>
           <div class="clearfix l-spacer"></div>
-          <div class="l-grid-column-3-2">
+          <div class="l-grid-row">
             <h2>Short Bio</h2>
 
             <h3>Educational and vocational training</h3>
@@ -184,22 +188,41 @@
               </li>
             </ul>
           </div>
-          <div class="l-grid-column-3-1">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML5/CSS3/Javascript</li>
-              <li>Python</li>
-              <li>Large scale web app architecture</li>
-              <li>Scalable and modular CSS</li>
-              <li>Full featured mobile apps with web technologies</li>
-            </ul>
+        </div>
+      </section>
 
-            <h2>Experience</h2>
-            <ul>
-              <li>Agile software development with Scrum- and Extreme Programming-like approaches</li>
-              <li>Version control systems (including migration from SVN to GIT)</li>
-              <li>Internationalisation</li>
-            </ul>
+      <section id="skills" class="l-container">
+        <div class="l-grid">
+          <h1 class="l-grid-row">Skills and Experience</h1>
+          <div class="l-grid-column-3-2 skills">
+            <span class="skills-frontend">Backbone.js</span>
+            <span class="skills-backend">MySQL</span>
+            <span class="skills-development">Extreme Programming</span>
+            <span class="skills-frontend">jQuery / Zepto.js</span>
+            <span class="skills-development">Agile Software Development</span>
+            <span class="skills-backend">Mac OS X</span>
+            <span class="skills-frontend">HTML5</span>
+            <span class="skills-backend">Django Webframework</span>
+            <span class="skills-frontend skills-backend">Internationalisation</span>
+            <span class="skills-backend">Linux</span>
+            <span class="skills-frontend skills-backend skills-development">MVC / MVP</span>
+            <span class="skills-frontend">Large Scale Web Architecture</span>
+            <span class="skills-development">Migration from SVN to GIT</span>
+            <span class="skills-backend">High Availability</span>
+            <span class="skills-frontend">Scalable and Modular CSS</span>
+            <span class="skills-backend">MongoDB</span>
+            <span class="skills-frontend">CSS3</span>
+            <span class="skills-development">GIT</span>
+            <span class="skills-backend">Apache</span>
+            <span class="skills-frontend">Mobile Web Apps</span>
+            <span class="skills-development">Scrum</span>
+          </div>
+          <div class="l-grid-column-3-1">
+            <h2 class="skills-headline">Filter</h2>
+            <span class="skills-button skills-button-all" data-group="*">All</span>
+            <span class="skills-button" data-group="frontend">Front-end</span>
+            <span class="skills-button" data-group="backend">Back-end</span>
+            <span class="skills-button" data-group="development">Software Development</span>
           </div>
         </div>
       </section>

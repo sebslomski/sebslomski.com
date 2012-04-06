@@ -59,14 +59,21 @@ header {
 }
 
 
-.quote {
+.intro-image {
   position: relative;
-  padding: 40px 150px;
+}
+
+.quote {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+  width: 480px;
+  padding: 20px;
 
   text-align: center;
   font-style: italic;
   font-size: 30px;
-  color: #777;
+  color: #3e4361;
   line-height: 1.5;
 }
 
@@ -79,12 +86,12 @@ header {
 
 .quote-right {
   bottom: -40px;
-  right: 120px;
+  right: 0;
 }
 
 .quote-left {
   top: 0;
-  left: 100px;
+  left: 0;
 }
 
 .l-spacer {
