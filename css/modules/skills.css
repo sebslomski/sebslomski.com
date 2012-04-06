@@ -1,5 +1,6 @@
 .skills {
-  border-right: 1px dotted #c0c0c0;
+  border-left: 1px dotted #c0c0c0;
+  padding-left: 20px;
 }
 
 .skills > span {
