@@ -66,9 +66,9 @@ header {
 .quote {
   position: absolute;
   top: 110px;
-  left: 40px;
-  width: 480px;
-  padding: 20px;
+  left: 30px;
+  width: 550px;
+  padding: 50px;
 
   text-align: center;
   font-style: italic;
@@ -80,12 +80,12 @@ header {
 .quote-left,
 .quote-right {
   position: absolute;
-  font-size: 80px;
+  font-size: 130px;
   line-height: 1;
 }
 
 .quote-right {
-  bottom: -40px;
+  bottom: -60px;
   right: 0;
 }
 
