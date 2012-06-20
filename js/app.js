@@ -1,4 +1,6 @@
 $(function () {
+  'use strict';
+
   var IS_MAC = true;
   jQuery.fn.reverse = function () {
     return this.pushStack(this.get().reverse(), arguments);
